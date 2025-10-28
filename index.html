@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compound Calculator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Compound Calculator</h1>
+    </header>
+
+    <main>
+        <section class="calculator">
+            <label for="principal">Principal Amount:</label>
+            <input type="number" id="principal" placeholder="أدخل المبلغ الأساسي">
+
+            <label for="rate">Interest Rate (%):</label>
+            <input type="number" id="rate" placeholder="أدخل النسبة المئوية">
+
+            <label for="time">Time (years):</label>
+            <input type="number" id="time" placeholder="أدخل عدد السنوات">
+
+            <label for="compound">Times Compounded per Year:</label>
+            <input type="number" id="compound" placeholder="عدد مرات التراكم في السنة">
+
+            <button id="calculate">Calculate</button>
+
+            <div id="result"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>This is my compound calculator site.</p>
+    </footer>
+
+    <script src="assests/js/main.js"></script>
+</body>
+</html>
